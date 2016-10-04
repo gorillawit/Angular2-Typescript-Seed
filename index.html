@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+	<style>
+		body {padding: 50px 0;}
+	</style>
+
+	<!-- Load the dependencies  -->
+	<script src="node_modules/core-js/client/shim.min.js"></script>
+	<script src="node_modules/zone.js/dist/zone.js"></script>
+	<script src="node_modules/reflect-metadata/Reflect.js"></script>
+	<!-- Don't need to import RxJs because those will be imported by the js files that need it -->
+
+	<!-- Load the angular app with systemjs  -->
+	<script src="node_modules/systemjs/dist/system.src.js" charset="utf-8"></script>
+	<!-- Load in our systemjs.config.js ripped from angular's website -->
+	<script src="systemjs.config.js" charset="utf-8"></script>
+	<script>
+		// can now load our application with systemjs
+		System.import('app').catch(function(err) { console.error(err); });
+	</script>
+</head>
+
+<body class="container">
+	<my-app></my-app>
+</body>
+
+</html>
