@@ -11,14 +11,14 @@ By the end of this configuration, we will have a working angular2 environment. F
 Then run `npm install`  and we'll be ready to roll.
 You can snag the code for these config files at the [Angular 2 website here](https://angular.io/docs/ts/latest/quickstart.html) if need be
 
-![ng-packages](ng-steps-for-getting-ng2-up-and-running.png)
+![ng-packages](img/ng-steps-for-getting-ng2-up-and-running.png)
 
 <hr>
 
 ### Getting Started
 First, here are the files get going
 
-![ng-starter-files](ng-starter-files.png)
+![ng-starter-files](img/ng-starter-files.png)
 
 <blockquote>
 ```javascript
@@ -31,7 +31,7 @@ npm start
 <hr>
 
 ### Angular Packages
-![ng-packages](./ng-packages.png)
+![ng-packages](img/ng-packages.png)
 
 - These are the things that are on the Angular core and are needed to run our applications
 - Angular2 is really keeping it as modular as possible so that it can be deployed on any device and with minimal size
@@ -53,7 +53,7 @@ npm install @angular/http @angular/forms @angular/router @angular/upgrade --save
 <hr>
 
 ### Angular Extras:
-![ng-extras](./ng-extras.png)
+![ng-extras](img/ng-extras.png)
 These helper modules are included in just about every Angular2 project
 
 <hr>
